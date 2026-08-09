@@ -18,18 +18,31 @@ window manager and persistence.
 - The PC detects it is inside an iframe and skips both IndexedDB (falls back
   to localStorage) and service-worker registration, so it never fights
   Jackie's PWA.
-- Jackie's service worker excludes `/pc-os/**` from precache and from the
-  SPA navigation fallback; the runtime `CacheFirst` rule still caches the PC
-  assets after first use (see `vite.config.ts`).
+- Jackie's service worker excludes `/pc-os/**` from precache (`globIgnores`)
+  and from the SPA navigation fallback (`navigateFallbackDenylist`); the
+  runtime `CacheFirst` rule still caches the PC assets after first use (see
+  `vite.config.ts`). Both exclusions are load-bearing, not tidiness: the PC
+  carries a 21.6 MB on-device AI wasm, and without `globIgnores`
+  `vite-plugin-pwa` **fails the build outright** rather than warning. Without
+  the denylist, navigating to the embed serves Jackie's SPA shell and the
+  iframe renders Jackie inside Jackie.
+
+  The `.wasm` extension is deliberately absent from the runtime `CacheFirst`
+  pattern. Adding it would make the PC's on-device AI work offline inside
+  Jackie at the cost of a 21.6 MB cache entry the moment anyone opens that app
+  — a real trade, worth making on purpose rather than by accident.
 
 ## Refreshing the embedded build
 
 When the PC repo changes, rebuild and re-copy:
 
+Always rebuild Jackie afterwards to prove the embed did not break it — see the
+per-file precache note above for what happens when it does.
+
 ```sh
 # in the PC repo
 npm install
-npx vite build --base=/pc-os/
+npm run build:pc-os          # vite build --base=/pc-os/ + manifest patch
 
 # in this repo
 rm -rf public/pc-os && mkdir -p public/pc-os

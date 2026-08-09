@@ -35,8 +35,21 @@ export default defineConfig(({ mode }) => ({
       },
       workbox: {
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
+        // The PC ships whole under public/pc-os/ — its own build, its own
+        // hashed assets, ~29 MB including a 21.6 MB on-device AI wasm. It must
+        // stay out of Jackie's precache manifest entirely:
+        //   - the wasm alone exceeds any sane per-file limit and fails the
+        //     build outright (not a warning — vite-plugin-pwa throws);
+        //   - precaching the rest would put ~8 MB of another application into
+        //     Jackie's install cost for users who never open /pc.
+        // The runtimeCaching CacheFirst rule below still caches PC assets
+        // after first use, which is the behaviour docs/PC_EMBED.md describes.
+        globIgnores: ["**/node_modules/**/*", "pc-os/**"],
         navigateFallback: "/index.html",
-        navigateFallbackDenylist: [/^\/~oauth/, /^\/api/, /^\/functions/],
+        // Without /pc-os here, a navigation to the embed gets served Jackie's
+        // SPA shell instead of the PC, and the iframe renders Jackie inside
+        // Jackie.
+        navigateFallbackDenylist: [/^\/~oauth/, /^\/api/, /^\/functions/, /^\/pc-os/],
         runtimeCaching: [
           {
             urlPattern: ({ request }) => request.mode === "navigate",
