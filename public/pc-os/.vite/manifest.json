@@ -1,13 +1,13 @@
 {
-  "_parallel-SjVhvs4b.js": {
-    "file": "assets/parallel-SjVhvs4b.js",
+  "_parallel-YKrH2Clm.js": {
+    "file": "assets/parallel-YKrH2Clm.js",
     "name": "parallel",
     "imports": [
       "index.html"
     ]
   },
-  "_recorder-DWTlByJD.js": {
-    "file": "assets/recorder-DWTlByJD.js",
+  "_recorder-DDtdXXn3.js": {
+    "file": "assets/recorder-DDtdXXn3.js",
     "name": "recorder",
     "imports": [
       "index.html"
@@ -45,8 +45,8 @@
       "_vendor-B5y3n4jd.js"
     ]
   },
-  "_vendor-icons-DzOW1h0M.js": {
-    "file": "assets/vendor-icons-DzOW1h0M.js",
+  "_vendor-icons-DBvzRHaM.js": {
+    "file": "assets/vendor-icons-DBvzRHaM.js",
     "name": "vendor-icons",
     "imports": [
       "_vendor-react-CydkfUxy.js"
@@ -67,14 +67,14 @@
     ]
   },
   "components/apps/AmbientAgentsApp.tsx": {
-    "file": "assets/AmbientAgentsApp-DbzeLL7C.js",
+    "file": "assets/AmbientAgentsApp-DqI40PnW.js",
     "name": "AmbientAgentsApp",
     "src": "components/apps/AmbientAgentsApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -82,14 +82,14 @@
     ]
   },
   "components/apps/BudgetRadarApp.tsx": {
-    "file": "assets/BudgetRadarApp-HJBnTOe_.js",
+    "file": "assets/BudgetRadarApp-BUvS2YMH.js",
     "name": "BudgetRadarApp",
     "src": "components/apps/BudgetRadarApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -97,14 +97,14 @@
     ]
   },
   "components/apps/BusRecorderApp.tsx": {
-    "file": "assets/BusRecorderApp-BD3QzHm6.js",
+    "file": "assets/BusRecorderApp-Cr_7anlJ.js",
     "name": "BusRecorderApp",
     "src": "components/apps/BusRecorderApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
-      "_recorder-DWTlByJD.js",
-      "_vendor-icons-DzOW1h0M.js",
+      "_recorder-DDtdXXn3.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "index.html",
       "_vendor-genai-Cbw91LLA.js",
@@ -113,14 +113,14 @@
     ]
   },
   "components/apps/BypassApp.tsx": {
-    "file": "assets/BypassApp-D9-aCG5O.js",
+    "file": "assets/BypassApp-D3UQR-Mv.js",
     "name": "BypassApp",
     "src": "components/apps/BypassApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -128,15 +128,15 @@
     ]
   },
   "components/apps/CartographerApp.tsx": {
-    "file": "assets/CartographerApp-BbNS26Ck.js",
+    "file": "assets/CartographerApp-880jE7_J.js",
     "name": "CartographerApp",
     "src": "components/apps/CartographerApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
-      "_recorder-DWTlByJD.js",
+      "_recorder-DDtdXXn3.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -144,14 +144,14 @@
     ]
   },
   "components/apps/ChoreographyApp.tsx": {
-    "file": "assets/ChoreographyApp-3qiyLCfF.js",
+    "file": "assets/ChoreographyApp-BbETYUrz.js",
     "name": "ChoreographyApp",
     "src": "components/apps/ChoreographyApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -159,15 +159,15 @@
     ]
   },
   "components/apps/ColosseumApp.tsx": {
-    "file": "assets/ColosseumApp-VNhodZ2m.js",
+    "file": "assets/ColosseumApp-CnbgKTzu.js",
     "name": "ColosseumApp",
     "src": "components/apps/ColosseumApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_parallel-SjVhvs4b.js",
-      "_vendor-icons-DzOW1h0M.js",
+      "_parallel-YKrH2Clm.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -175,14 +175,14 @@
     ]
   },
   "components/apps/CortexApp.tsx": {
-    "file": "assets/CortexApp-Ckz3Xoqq.js",
+    "file": "assets/CortexApp-DhDUK-OE.js",
     "name": "CortexApp",
     "src": "components/apps/CortexApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -190,14 +190,14 @@
     ]
   },
   "components/apps/FleetApp.tsx": {
-    "file": "assets/FleetApp-Dez8YFE7.js",
+    "file": "assets/FleetApp-18sI4Ezm.js",
     "name": "FleetApp",
     "src": "components/apps/FleetApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -205,14 +205,14 @@
     ]
   },
   "components/apps/JackieChatApp.tsx": {
-    "file": "assets/JackieChatApp-CrXaivXL.js",
+    "file": "assets/JackieChatApp-DlK390-g.js",
     "name": "JackieChatApp",
     "src": "components/apps/JackieChatApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -220,26 +220,26 @@
     ]
   },
   "components/apps/KnowledgeApp.tsx": {
-    "file": "assets/KnowledgeApp-B96CLrLW.js",
+    "file": "assets/KnowledgeApp-DuA9t5S1.js",
     "name": "KnowledgeApp",
     "src": "components/apps/KnowledgeApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js"
     ]
   },
   "components/apps/PromptGenomeApp.tsx": {
-    "file": "assets/PromptGenomeApp-Delw3Y4a.js",
+    "file": "assets/PromptGenomeApp-BcVG4_Dw.js",
     "name": "PromptGenomeApp",
     "src": "components/apps/PromptGenomeApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_parallel-SjVhvs4b.js",
-      "_vendor-icons-DzOW1h0M.js",
+      "_parallel-YKrH2Clm.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -247,15 +247,15 @@
     ]
   },
   "components/apps/SpeedRacerApp.tsx": {
-    "file": "assets/SpeedRacerApp-cz7To8AS.js",
+    "file": "assets/SpeedRacerApp-BtgCkB5H.js",
     "name": "SpeedRacerApp",
     "src": "components/apps/SpeedRacerApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_parallel-SjVhvs4b.js",
-      "_vendor-icons-DzOW1h0M.js",
+      "_parallel-YKrH2Clm.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -263,7 +263,7 @@
     ]
   },
   "components/apps/TelegramApp.tsx": {
-    "file": "assets/TelegramApp-BxA1a241.js",
+    "file": "assets/TelegramApp-XrTqPh_a.js",
     "name": "TelegramApp",
     "src": "components/apps/TelegramApp.tsx",
     "isDynamicEntry": true,
@@ -271,7 +271,7 @@
       "_vendor-react-CydkfUxy.js",
       "_vendor-telegram-CZJfBlZi.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -279,14 +279,14 @@
     ]
   },
   "components/apps/UnderstudyApp.tsx": {
-    "file": "assets/UnderstudyApp-uyz3U5zM.js",
+    "file": "assets/UnderstudyApp-DPKNeTr3.js",
     "name": "UnderstudyApp",
     "src": "components/apps/UnderstudyApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "index.html",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-genai-Cbw91LLA.js",
       "_vendor-chess-BdveOW5A.js",
@@ -294,14 +294,14 @@
     ]
   },
   "index.html": {
-    "file": "assets/index-Bp7f8aLy.js",
+    "file": "assets/index-DDF193di.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "imports": [
       "_vendor-react-CydkfUxy.js",
       "_vendor-genai-Cbw91LLA.js",
-      "_vendor-icons-DzOW1h0M.js",
+      "_vendor-icons-DBvzRHaM.js",
       "_vendor-chess-BdveOW5A.js",
       "_vendor-B5y3n4jd.js",
       "_vendor-firebase-CR2gM9d2.js"
@@ -328,7 +328,7 @@
       "_vendor-B5y3n4jd.js"
     ],
     "css": [
-      "assets/index-CrcZ8bxB.css"
+      "assets/index-G6Yjppo8.css"
     ]
   },
   "lib/routerMenu/subRouters/routers.ts": {
